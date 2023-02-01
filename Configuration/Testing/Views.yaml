@@ -1,0 +1,31 @@
+-
+  requestFilter: "isFormat('html') && isPackage('DigiComp.NextActionViews') && isController('Redirect') && isAction('source')"
+  viewObjectName: "DigiComp\\NextActionViews\\View\\RedirectToActionView"
+  options:
+    action: "target"
+    format: "html"
+
+-
+  requestFilter: "isFormat('html') && isPackage('DigiComp.NextActionViews') && isController('Redirect') && isAction('sourceWithObject')"
+  viewObjectName: "DigiComp\\NextActionViews\\View\\RedirectToActionView"
+  options:
+    action: "target"
+    format: "html"
+    arguments:
+      'entity': "getContextArgument('entity')"
+
+-
+  requestFilter: "isFormat('html') && isPackage('DigiComp.NextActionViews') && isController('Forward') && isAction('source')"
+  viewObjectName: "DigiComp\\NextActionViews\\View\\ForwardToActionView"
+  options:
+    action: "target"
+    format: "html"
+
+-
+  requestFilter: "isFormat('html') && isPackage('DigiComp.NextActionViews') && isController('Forward') && isAction('sourceWithObject')"
+  viewObjectName: "DigiComp\\NextActionViews\\View\\ForwardToActionView"
+  options:
+    action: "target"
+    format: "html"
+    arguments:
+      'entity': "getContextArgument('entity')"

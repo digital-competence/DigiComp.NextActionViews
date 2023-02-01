@@ -1,0 +1,42 @@
+{
+    "name": "digicomp/nextactionviews",
+    "description": "Views which trigger a redirect // forward",
+    "type": "neos-package",
+    "require": {
+        "neos/flow": "^6.3.5 | ^7.3.9 | ^8.2",
+        "symfony/polyfill-php80": "^1.16",
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.5 | ^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigiComp\\NextActionViews\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "DigiComp.NextActionViews"
+        },
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ferdinand Kuhl",
+            "email": "f.kuhl@digital-competence.de",
+            "homepage": "https://www.digital-competence.de",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/digital-competence/DigiComp.NextActionViews",
+    "keywords": [
+        "Neos",
+        "Flow",
+        "view",
+        "mvc"
+    ]
+}
